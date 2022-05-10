@@ -15,4 +15,4 @@ class Rectangle {
   
   const square = new Rectangle(3, 4);
   
-  console.log(square.area); // 100
+  console.log(square.area); // 12
