@@ -2,6 +2,7 @@ function createPerson(firstName, age) {
     const person = {};
     person.firstName = firstName;
     person.age = age;
+    person.city = city;
     person.introduce = function () {
       return `Hello, my name is ${this.firstName}`;
     };
@@ -23,4 +24,4 @@ function createPerson(firstName, age) {
   
   
   person1.eat("pizza");
-  person2.eat("cheese");
+  
