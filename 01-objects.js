@@ -1,14 +1,25 @@
 const person1 = {
-    firstName: "Martha", 
+    firstName: "Martha",
     age: 26,
-};
-
-const person2  = {
-    firstName; "Jim",
+    introduce: function () {
+      return `Hello, my name is ${this.firstName}`;
+    },
+  };
+  
+  const person2 = {
+    firstName: "Jim",
     age: 16,
-};
-
-const person3 = {
-    firstName: "Mike",
+    introduce: function () {
+      return `Hello, my name is ${this.firstName}`;
+    },
+  };
+  
+  const person3 = {
+    firstName: "Tim",
     age: 19,
-};
+    introduce: function () {
+      return `Hello, my name is ${this.firstName}`;
+    },
+  };
+  
+  console.log(person1);
